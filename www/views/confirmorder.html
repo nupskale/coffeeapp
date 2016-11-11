@@ -1,0 +1,18 @@
+<ion-view view-title="Confirm">
+	<ion-content>
+		<div class="confirm-order-header">
+			<a class="change-coffee" href='#/size'><i class="fa fa-chevron-left"></i></a>
+			<h4>Please confirm your order</h4>
+		</div>
+		<div class="order-table">
+			<label>You Selected: {{finalCoffee()}}</label>
+			<label>Size: {{finalSize()}}</label>
+			<label>Grand Total: {{finalPrice()}}</label>
+		</div>
+		<div class="pay-now-btn">
+			<a href="#/thanks" class="button button-assertive">
+			  Pay Now
+			</a>
+		</div>
+	</ion-content>
+</ion-view>

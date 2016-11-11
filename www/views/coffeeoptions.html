@@ -1,0 +1,13 @@
+<ion-view view-title="Coffeeoptions">
+	<ion-content>
+		<h4 ng-hide="coffeeSelected">Choose your coffee</h4>
+		<div class="coffee-container">
+			<div class="coffeeItem" ng-repeat="item in coffeeArray">
+				<button class="button coffee-button" ng-click="selectCoffee(item.name);">
+				  <i class="fa fa-coffee fa-5x"></i>
+				</button>
+				<label>{{item.name}}</label>
+			</div>
+		</div>	
+	</ion-content>
+</ion-view>

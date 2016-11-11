@@ -1,0 +1,146 @@
+/* global styles */
+@font-face {
+  font-family: 'dk_jambo';
+  src: url('../fonts/dk_jambo.otf');
+}
+
+body, .scroll-content{
+	background-color: #f0e68c;
+}
+h1.app-name{
+	font-family: "dk_jambo";
+	text-align: center;
+	margin: 50px 0 40px;
+	color: #662200;
+}
+h1, h2, h3, h4, h5{
+	font-family: "dk_jambo";
+	text-align: center;
+	color: #662200;
+}
+h4{
+	color: #ef473a;
+}
+
+/* login styles */
+.app-logo{
+	text-align: center;
+	margin: 20px 0;
+}
+.app-logo i.fa-coffee{
+	font-size: 95px;
+	border: 3px solid #3cb371;
+    border-radius: 50%;
+    padding: 20px;
+    color: #662200;
+}
+.enter-app-btn{
+	text-align: center;
+	margin-top: 80px;
+}
+.enter-app-btn .button{
+	width: 200px;
+}
+
+/* coffee page styles */
+.coffee-container{
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.coffeeItem, .sizeItem{
+	margin-right: 20px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.coffeeItem label, .sizeItem label{
+	display: block;
+	font-family: "dk_jambo";
+	color: #ef473a;
+	margin-top: 10px;
+	font-size: 18px;
+}
+.coffeeItem .button.coffee-button{
+	padding: 20px;
+    background-color: transparent;
+    border: 2px solid #662200;
+    border-radius: 50%;
+}
+.coffeeItem .button.coffee-button .fa-coffee{
+	color: #662200;
+}
+
+/* size and quantity styles */
+.size-container{
+	margin: 0  0 20px;
+	padding: 20px;
+	text-align: center;
+}
+.size-container label.sub-title{
+	font-family: "dk_jambo";
+	font-size: 18px;
+	color: #3cb371;
+}
+.sizeItem .button.coffee-button{
+	padding: 18px 20px;
+    background-color: transparent;
+    border: 2px solid #662200;
+    border-radius: 50%;
+}
+.sizeItem .button.coffee-button .fa-coffee{
+	color: #662200;
+}
+a.change-coffee{
+	cursor: pointer;
+	color: #662200;
+	margin-right: 10px;
+}
+
+/* order confirmation styles */
+.confirm-order-header{
+	text-align: center;
+}
+.confirm-order-header h4{
+	display: inline-block;
+}
+.confirm-order-header a.change-coffee{
+	margin-right: 10px;
+}
+.order-table{
+	margin: 20px;
+	border: 2px solid #662200;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+}
+.order-table label{
+	display: block;
+	font-family: 'dk_jambo';
+	color: #3cb371;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.order-table label:last-child{
+	margin-bottom: 0;
+}
+.pay-now-btn{
+	text-align: center;
+	margin-top: 20px;
+}
+.pay-now-btn .button{
+	width: 200px;
+}
+
+/* thank you styles */
+.go-back-link{
+	text-align: center;
+	margin-top: 40px;
+}
+.go-back-link a{
+	font-size: 16px;
+	font-family: "dk_jambo";
+	color: #662200;
+}
+a.change-coffee .fa-chevron-left{
+	margin-right: 5px;
+}
